@@ -1,6 +1,6 @@
 token:
   expiration_time: 8640000000 # 1 day
-  secret: user_token_default_change_01
+  secret: user_token_default_change_02
 
 gateway:
   ip: 121.146.60.50
