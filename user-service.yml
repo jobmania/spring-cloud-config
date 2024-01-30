@@ -1,11 +1,11 @@
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url : jdbc:h2:tcp://localhost/~/testmsa
+    url : jdbc:h2:mem:testmsa
     username: sa
     # password: '{cipher}4c023da2b842565f11e61b3d2cc201fe3604453222d6f7e0dc6e6c8b3cde3432' # 대칭키 암호화!(12)
     password: '{cipher}AQAJAwQ6+SDLq+EnU45zycYjCeE4Qiigh1HVdnx6nG2ZNg+pEJzuAis8SzfURSMx6/rdaNizN2MLHj3JwrDlcJJ9VQdKELFz6dAor0czbThVCPSa4pHYN3A7/MraJoxBylKvj3Qa4GIk8ywTsbpM/dGNXhcl8iUmZA5mGlXs7Ruqy0aFlxF5Nd4fzh/8NabVO5L5OX3J6eLSELuySf5iEFJWs+g2Yz9XFKucdMKPfQsfZmHS9+xLcx0zxgXJDWjsFj5ZRMcQa8TMB4ZrY1NwNSbXJtyg8F7weuQlaGgnEKKER8HXQ+grw3PV7MQhS86NjXWs8eLRJ3lJXQBPBo5TyA7MJn5o00aq3jfVY0jZaeDPJ9VzWB2cSEpcgqqRIT4MpFs=' # 비대칭키 암호화!(12)
-    
+    # 실제비번 12 ㅋ
 # token:
 #   expiration_time: 8640000000 # 1 day
 #   secret: '{cipher}AQAQVjXOGzwruJZTZBKuCpRz0cZnZSVtej7ulE/9Q4mXkI+ZyR9lkC4yCvbDDvo/rhBQqRyLJ5mHRooKwYf9mBW28hT1KUDQfHy+E8y4t67hhvZi479Atmb74pYSyRYoP9YglgbDrwIfMlZVuZJkpKIM5KaVH3FyGfPsTvsRb6yzD0/9bEKGYlZ100f4I8f/QGOT5qWsJzI+j/huuSnh2lGXZZnqnZ21qUs/1iRywgfn0U1IAy46eB9Bqc3krBriEeLRo85YoA6/hL6MS32AfwWh5VPHfTKNyvixUi9fQIfettI9TJnOjSVAY0GNIeiMdcdf5z6i1fFswOvquRWYMAj6lYsu90dBIRgd+t6yNEvUKC/0GxC2T/utPI/1kvziUior10q/D3XHOIKXUMQORl8w'
